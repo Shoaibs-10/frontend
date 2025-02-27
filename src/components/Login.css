@@ -1,0 +1,117 @@
+/* 🌟 Login Page Styles 🌟 */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* 🏠 Login Container */
+  .login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .login-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* 🖋 Login Title */
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #1e3c72;
+  }
+  
+  /* 🚀 Input Box with Icon */
+  .input-box {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .input-box input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .icon {
+    color: #0D6EFD;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* 🔥 Animated Input Field */
+  .input-box input:focus {
+    border-bottom: 2px solid #0D6EFD;
+    transition: border-bottom 0.3s ease-in-out;
+  }
+  
+  /* 🛑 Error Message */
+  .error {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  /* 🟢 Login Button */
+  .login-container button {
+    background: #28A745;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: transform 0.2s, box-shadow 0.3s;
+  }
+  
+  .login-container button:hover {
+    background: #218838;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 🌙 Dark Mode Toggle */
+  .dark-mode {
+    background: #121212;
+    color: white;
+  }
+  
+  .dark-mode .login-container {
+    background: #1e1e1e;
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-mode .input-box {
+    background: #2a2a2a;
+  }
+  
+  .dark-mode .input-box input {
+    color: white;
+  }
+  
+  .dark-mode .login-container h2 {
+    color: #0D6EFD;
+  }
+  
+  .dark-mode .icon {
+    color: #FFD700;
+  }
+  
